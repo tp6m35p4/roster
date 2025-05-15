@@ -23,9 +23,10 @@
     <div class="card-header">About</div>
     <div class="card-body">
       <p class="card-text">
-        This application does NOT collect or record any user data. All data
-        fetch directly from the APIs and store ONLY on user's device. Visit the
-        github for the source code.
+        This application does NOT collect and record any user data (including
+        but not limited to user roster, user id, user password). All data fetch
+        directly from the APIs and store ONLY on user's device. Visit the github
+        for the source code.
       </p>
       <p class="card-text">
         <a href="https://github.com/tp6m35p4/roster">GITHUB</a>
