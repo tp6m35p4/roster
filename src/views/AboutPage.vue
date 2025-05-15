@@ -18,9 +18,24 @@
       </p>
     </div>
   </div>
-
   <div class="card">
     <div class="card-header">About</div>
+    <div class="card-body">
+      <p class="card-head">Features</p>
+
+      <ul>
+        <li>
+          <p>Support offline usage</p>
+        </li>
+        <li>
+          <p>Update when user open the APP and network is avaliable</p>
+        </li>
+      </ul>
+    </div>
+    <p class="card-text"></p>
+  </div>
+  <div class="card">
+    <div class="card-header">Disclaimer</div>
     <div class="card-body">
       <p class="card-text">
         This application does NOT collect and record any user data (including
