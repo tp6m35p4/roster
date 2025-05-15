@@ -9,7 +9,7 @@ import LoginPage from "../views/auth/LoginPage.vue";
 
 import RosterPage from "../views/RosterPage.vue";
 import FlightLogPage from "../views/FlightLogPage.vue";
-import About from "../views/About.vue";
+import AboutPage from "../views/AboutPage.vue";
 
 const routes = [
   {
@@ -47,7 +47,7 @@ const routes = [
     meta: {
       noCache: true,
     },
-    component: About,
+    component: AboutPage,
   },
   //   {
   //     path: "/:catchAll(.*)",

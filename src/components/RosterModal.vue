@@ -33,7 +33,7 @@
                   <div
                     class="g-col-6 g-col-md-4"
                     v-for="mission in getMissionsInDuty(duty)"
-                    v-if="getMissionsInDuty(duty)"
+                    :key="mission.id"
                   >
                     <roster-card-item :mission="mission"></roster-card-item>
                   </div>
