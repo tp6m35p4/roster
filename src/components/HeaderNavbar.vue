@@ -23,7 +23,9 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
-              <header-router-link to="/">Home</header-router-link>
+              <header-router-link to="/" @click="isNavbarVisable = false"
+                >Home</header-router-link
+              >
             </li>
             <!-- <li class="nav-item">
               <header-router-link to="/flightlog"
@@ -31,7 +33,9 @@
               >
             </li> -->
             <li class="nav-item">
-              <header-router-link to="/about">About</header-router-link>
+              <header-router-link to="/about" @click="isNavbarVisable = false"
+                >About</header-router-link
+              >
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link" href="#">Link</a>
