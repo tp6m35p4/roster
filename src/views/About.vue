@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card mb-3">
     <div class="card-header">How to add this application to homepage</div>
     <div class="card-body">
       <h5 class="card-title">Safari</h5>
@@ -16,6 +16,21 @@
           >Click me</a
         >
       </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">About</div>
+    <div class="card-body">
+      <p class="card-text">
+        This application does NOT collect or record any user data. All data
+        fetch directly from the APIs and store ONLY on user's device. Visit the
+        github for the source code.
+      </p>
+      <p class="card-text">
+        <a href="https://github.com/tp6m35p4/roster">GITHUB</a>
+      </p>
+      <p class="card-text">All right reserved by the API owner.</p>
     </div>
   </div>
 </template>
